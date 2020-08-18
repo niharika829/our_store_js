@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OUR STORE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <center>
+      <h1 class="heading">
+        Our
+        <span>
+          <b><i>Store</i></b></span
+        >
+      </h1>
+      <button class="btn btn-info btn-lg" onclick="allcategory()">All</button>
+      <button class="btn btn-success btn-lg" onclick="onlycakes()">
+        Cakes
+      </button>
+      <button class="btn btn-danger btn-lg" onclick="onlycupcake()">
+        Cupcakes
+      </button>
+      <button class="btn btn-warning btn-lg" onclick="onlydonut()">
+        Donuts
+      </button>
+      <button class="btn btn-primary btn-lg" onclick="onlysweet()">
+        Sweets
+      </button>
+      <br /><br /><br />
+      <input
+        class="w3-input w3-hover-grey"
+        type="text"
+        id="myInput"
+        onkeyup="myFunction()"
+        placeholder="Search for item.."
+        title="Type in a name"
+        style="width: 30%;"
+      />
+      <br /><br /><br />
+      <div class="container">
+        <div class="row" id="myUL"></div>
+      </div>
+      <div class="container">
+        <div class="row" id="myULCAKES"></div>
+      </div>
+      <div class="container">
+        <div class="row" id="myULCUPCAKE"></div>
+      </div>
+      <div class="container">
+        <div class="row" id="search"></div>
+      </div>
+      <div class="container">
+        <div class="row" id="myULSWEET"></div>
+      </div>
+      <div class="container">
+        <div class="row" id="myULDONUT"></div>
+      </div>
+    </center>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

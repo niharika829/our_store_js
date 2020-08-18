@@ -1,0 +1,22 @@
+button {
+  padding: 15px 30px 15px 30px;
+  margin: 15px 15px 15px 15px;
+}
+.container {
+  margin-left: 200px;
+}
+input {
+  width: 50%;
+  height: 60px;
+  font-size: 14pt;
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    margin-left: 10px;
+  }
+}
+
+.heading {
+  font-size: 80px;
+}
